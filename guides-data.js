@@ -659,8 +659,8 @@ const guides = [
   {
     id: 9,
     category: "세팅",
-    title: "유물 초보자 가이드",
-    desc: "주옵션, 부옵션 보는 법 + 강화 판단 기준.",
+    title: "에바네시아 ",
+    desc: "유물, 광추",
     content: "내용 작성 예정"
   },
   {

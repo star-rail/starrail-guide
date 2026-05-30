@@ -666,7 +666,7 @@ const guides = [
   {
     id: 10,
     category: "세팅",
-    title: "효광
+    title: "효광",
     desc: "유물, 광추",
     content: "내용 작성 예정"
   }

@@ -80,13 +80,25 @@ const guides = [
   // ====================================================
   // === 미디어 순서 ===
   // ====================================================
-  {
-    id: 6,
-    category: "PV",
-    title: "별무리 기행 PV: 「별하늘 우화•1」",
-    desc: "「수많은 유성이 오늘 밤 하늘을 가로지르니 옳은 유성을 선택한다면……. 그 유성이 너의 소원을 수천수백의 세계로 데려갈 테다」",
-    content: "https://www.youtube.com/watch?v=eLWgEmiiPPE&list=PLQF91_DndkjiYSu8VpZn5N9EVPCHC0xRZ&index=39"
-  },
+{
+  id: 6,
+  category: "PV",
+  title: "별무리 기행 PV: 「별하늘 우화•1」",
+  desc: "「수많은 유성이 오늘 밤 하늘을 가로지르니 옳은 유성을 선택한다면……. 그 유성이 너의 소원을 수천수백의 세계로 데려갈 테다」",
+  thumbnail: "https://img.youtube.com/vi/eLWgEmiiPPE/hqdefault.jpg",
+  content: `
+    <a href="https://www.youtube.com/watch?v=eLWgEmiiPPE&list=PLQF91_DndkjiYSu8VpZn5N9EVPCHC0xRZ&index=39" target="_blank">
+      <img src="https://img.youtube.com/vi/eLWgEmiiPPE/hqdefault.jpg"
+           alt="별무리 기행 PV 썸네일"
+           style="width:100%; max-width:560px; border-radius:8px; display:block; margin-bottom:12px;">
+    </a>
+    <a href="https://www.youtube.com/watch?v=eLWgEmiiPPE&list=PLQF91_DndkjiYSu8VpZn5N9EVPCHC0xRZ&index=39"
+       target="_blank"
+       style="color:#7dd3fc; text-decoration:underline;">
+      ▶ 유튜브에서 영상 보기
+    </a>
+  `
+},
 
   // ====================================================
   // === 캐릭터 & 팀 ===

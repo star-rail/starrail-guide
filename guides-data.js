@@ -657,18 +657,20 @@ const guides = [
   // === 세팅 ===
   // ====================================================
   {
-    id: 9,
-    category: "세팅",
-    title: "에바네시아 ",
-    desc: "유물, 광추",
-    content: "내용 작성 예정"
-  },
+  id: 9,
+  category: "세팅",
+  title: "에바네시아",
+  desc: "유물, 광추 추천 (이미지 가이드)",
+  buildImage: "images/builds/ebanesia.jpg",
+  content: "출시 기점의 파티 추천입니다."
+ },
   {
     id: 10,
     category: "세팅",
     title: "효광",
-    desc: "유물, 광추",
-    content: "내용 작성 예정"
+    desc: "유물, 광추 추천 (이미지 가이드)",
+  buildImage: "images/builds/yaoguang.jpg",
+  content: "출시 기점의 파티 추천입니다."
   }
 ];
 

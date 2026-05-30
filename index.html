@@ -294,7 +294,33 @@
         grid-template-columns: 1fr;
       }
     }
-  </style>
+ /* === buildImage용 CSS (여기에 붙여넣기) === */
+.modal-box.wide {
+  max-width: 1080px;
+  max-height: 92vh;
+}
+
+.modal-box.wide .modal-body {
+  padding: 12px 16px 20px;
+}
+
+.build-image {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #2a3146;
+  display: block;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  margin-bottom: 16px;
+}
+
+.build-image-note {
+  margin-top: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--muted);
+}
+/* === buildImage용 CSS 여기까지 === */ </style>
 </head>
 <body>
 
@@ -506,13 +532,31 @@ function setCategory(el) {
 function openModal(guide) {
   document.getElementById("modalTitle").innerText = guide.title;
   const body = document.getElementById("modalBody");
-  
-  body.innerHTML = guide.content || `<p>아직 작성 중인 가이드입니다.</p>`;
-  
+  const modalBox = document.querySelector(".modal-box");
+
+  if (guide.buildImage) {
+    // 이미지 가이드 모드 (와이드 모달)
+    modalBox.classList.add("wide");
+
+    let html = `<img src="${guide.buildImage}" alt="${guide.title}" class="build-image">`;
+
+    if (guide.content) {
+      html += `<div class="build-image-note">${guide.content}</div>`;
+    }
+
+    body.innerHTML = html;
+  } else {
+    // 일반 가이드 모드
+    modalBox.classList.remove("wide");
+    body.innerHTML = guide.content || `<p>아직 작성 중인 가이드입니다.</p>`;
+  }
+
   document.getElementById("modal").classList.add("open");
 }
 
 function closeModal() {
+  const modalBox = document.querySelector(".modal-box");
+  modalBox.classList.remove("wide");
   document.getElementById("modal").classList.remove("open");
 }
 

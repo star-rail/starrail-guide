@@ -415,8 +415,10 @@ function renderGuides(list) {
   function renderMediaGrouped(list) {
   const container = document.getElementById("guideGrid");
   container.innerHTML = "";
+  container.style.display = "block";   // 그리드 강제 해제
+  container.style.gridTemplateColumns = "none";
 
-  const grouped = {};
+ const grouped = {};
   list.forEach(item => {
     const group = item.mediaGroup || "기타";
     if (!grouped[group]) grouped[group] = [];

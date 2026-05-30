@@ -401,19 +401,28 @@ function renderGuides(list) {
     return;
   }
 
-  list.forEach(guide => {
-    const card = document.createElement("div");
-    card.className = "guide-card";
-    card.innerHTML = `
-      <div class="tag">${guide.category}</div>
-      <h3>${guide.title}</h3>
-      <p>${guide.desc}</p>
-    `;
-    card.onclick = () => openModal(guide);
-    grid.appendChild(card);
-  });
-}
+list.forEach(guide => {
+  const card = document.createElement("div");
+  card.className = "guide-card";
+  card.innerHTML = `
+    <div class="tag">${guide.category}</div>
+    <h3>${guide.title}</h3>
+    <p>${guide.desc}</p>
+  `;
 
+  // ★★★ 여기부터 수정 ★★★
+  if (guide.category === "미디어" && guide.youtubeId) {
+    // 미디어 카드는 모달 대신 유튜브로 바로 이동
+    card.onclick = () => {
+      window.open(`https://www.youtube.com/watch?v=${guide.youtubeId}`, '_blank');
+    };
+  } else {
+    // 기존 일반 카드는 모달 열기
+    card.onclick = () => openModal(guide);
+  }
+  grid.appendChild(card);
+});
+  
   function renderMediaGrouped(list) {
   const container = document.getElementById("guideGrid");
   container.innerHTML = "";

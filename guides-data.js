@@ -82,10 +82,10 @@ const guides = [
   // ====================================================
   {
     id: 6,
-    category: "미디어",
-    title: "공식 PV & 애니메이션 시청 순서",
-    desc: "스토리를 망치지 않으면서 재미있게 볼 수 있는 공식 PV, 단편 애니메이션, 만화 순서 추천.",
-    content: "내용 작성 예정"
+    category: "PV",
+    title: "별무리 기행 PV: 「별하늘 우화•1」",
+    desc: "「수많은 유성이 오늘 밤 하늘을 가로지르니 옳은 유성을 선택한다면……. 그 유성이 너의 소원을 수천수백의 세계로 데려갈 테다」",
+    content: "https://www.youtube.com/watch?v=eLWgEmiiPPE&list=PLQF91_DndkjiYSu8VpZn5N9EVPCHC0xRZ&index=39"
   },
 
   // ====================================================

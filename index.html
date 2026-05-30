@@ -393,6 +393,8 @@ let currentCategory = "all";
 function renderGuides(list) {
   const grid = document.getElementById("guideGrid");
   grid.innerHTML = "";
+  grid.style.display = "";
+  grid.style.gridTemplateColumns = "";
 
   if (list.length === 0) {
     grid.innerHTML = `<p style="color:#666; text-align:center; padding:40px;">조건에 맞는 가이드가 없습니다.</p>`;

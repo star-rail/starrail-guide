@@ -666,8 +666,8 @@ const guides = [
   {
     id: 10,
     category: "세팅",
-    title: "광추(무기) 선택 가이드",
-    desc: "4성 vs 5성, 어떤 상황에서 어떤 광추를 써야 하는지.",
+    title: "효광
+    desc: "유물, 광추",
     content: "내용 작성 예정"
   }
 ];

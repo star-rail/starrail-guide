@@ -76,7 +76,7 @@ const guides = [
   category: "파밍",
   title: "맵 성옥 파밍을 위한 지도",
   desc: "아잉 행시는 상자와 퍼즐위치를 알고싶어용!",
-  buildImage: "images/guides/hangsi-1.gif",
+  buildImage: "images/guides/hangsi-2.gif",
   content: `
     <p>
       <a href="https://act.hoyolab.com/sr/app/interactive-map/index.html?hyl_presentation_style=fullscreen&lang=ko-kr&plat_type=pc"

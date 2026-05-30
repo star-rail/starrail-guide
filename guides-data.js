@@ -135,6 +135,561 @@ const guides = [
     desc: "4성 vs 5성, 어떤 상황에서 어떤 광추를 써야 하는지.",
     content: "내용 작성 예정"
   }
+  const mediaItems = [
+  // ==================== 게임 시작 전 ====================
+  {
+    id: 200,
+    category: "미디어",
+    mediaGroup: "게임 시작 전",
+    title: "OP : 성간여행",
+    youtubeId: "T-4PPgv1sKg",
+    desc: ""
+  },
+  {
+    id: 201,
+    category: "미디어",
+    mediaGroup: "게임 시작 전",
+    title: "별무리 기행 : 별하늘 우화 1",
+    youtubeId: "eLWgEmiiPPE",
+    desc: ""
+  },
+
+  // ==================== 선주 나부 클리어 후 ====================
+  {
+    id: 202,
+    category: "미디어",
+    mediaGroup: "선주 나부 클리어 후",
+    title: "별무리 기행 : 선주통감 천궁의 7대장군",
+    youtubeId: "vH70I2vYtkI",
+    desc: ""
+  },
+  {
+    id: 203,
+    category: "미디어",
+    mediaGroup: "선주 나부 클리어 후",
+    title: "별무리 기행 : 선주 통감 5룡의 원정",
+    youtubeId: "JSc3ncN_dL8",
+    desc: ""
+  },
+  {
+    id: 204,
+    category: "미디어",
+    mediaGroup: "선주 나부 클리어 후",
+    title: "단편 애니메이션 : 섬광",
+    youtubeId: "NoUiU43jHac",
+    desc: ""
+  },
+  {
+    id: 205,
+    category: "미디어",
+    mediaGroup: "선주 나부 클리어 후",
+    title: "단편 애니메이션 : 현황",
+    youtubeId: "kBgF6BqfTMc",
+    desc: ""
+  },
+  {
+    id: 206,
+    category: "미디어",
+    mediaGroup: "선주 나부 클리어 후",
+    title: "별무리 기행 : 예페라 반란 : 제 47장",
+    youtubeId: "pgKhECnAL-c",
+    desc: ""
+  },
+  {
+    id: 207,
+    category: "미디어",
+    mediaGroup: "선주 나부 클리어 후",
+    title: "EP : 수룡음",
+    youtubeId: "ikHgznmsci8",
+    desc: ""
+  },
+
+  // ==================== 동행임무 흔적을 남기지 않은 구름 클리어 후 ====================
+  {
+    id: 208,
+    category: "미디어",
+    mediaGroup: "동행임무 흔적을 남기지 않은 구름 클리어 후",
+    title: "별무리 기행 : 운기군 무술 경전 설검",
+    youtubeId: "VJt66mXk5b4",
+    desc: ""
+  },
+
+  // ==================== 개척후문 겨울꿈에서 깨어난 순간 클리어 후 ====================
+  {
+    id: 209,
+    category: "미디어",
+    mediaGroup: "개척후문 겨울꿈에서 깨어난 순간 클리어 후",
+    title: "별무리 기행 : 스타피스 안내: 선발, 계획과 기회",
+    youtubeId: "gMlzmFoculY",
+    desc: ""
+  },
+
+  // ==================== 개척후문 호재지이 클리어 후 ====================
+  {
+    id: 210,
+    category: "미디어",
+    mediaGroup: "개척후문 호재지이 클리어 후",
+    title: "별무리 기행 : 유원복마기",
+    youtubeId: "MDCGYZmAP48",
+    desc: ""
+  },
+
+  // ==================== 개척후문 인간과 신의 면류관 클리어 후 ====================
+  {
+    id: 211,
+    category: "미디어",
+    mediaGroup: "개척후문 인간과 신의 면류관 클리어 후",
+    title: "별무리 기행 : 완매",
+    youtubeId: "mHDO9BZKyMc",
+    desc: ""
+  },
+  {
+    id: 212,
+    category: "미디어",
+    mediaGroup: "개척후문 인간과 신의 면류관 클리어 후",
+    title: "별무리 기행 : 영원한 불길의 밤: S#33",
+    youtubeId: "F4LvWr2x9M4",
+    desc: ""
+  },
+
+  // ==================== 페나코니 진입 전 ====================
+  {
+    id: 213,
+    category: "미디어",
+    mediaGroup: "페나코니 진입 전",
+    title: "OP : WHITE NIGHT",
+    youtubeId: "9ixmwNCbo1c",
+    desc: ""
+  },
+  {
+    id: 214,
+    category: "미디어",
+    mediaGroup: "페나코니 진입 전",
+    title: "별무리 기행 : 옛 꿈의 추억",
+    youtubeId: "GhYdAWOG_QE",
+    desc: ""
+  },
+
+  // ==================== 페나코니 1막 음항과 분고 클리어 후 ====================
+  {
+    id: 215,
+    category: "미디어",
+    mediaGroup: "페나코니 1막 음항과 분고 클리어 후",
+    title: "별무리 기행 : <<스파클>> : 무대 뒤에서",
+    youtubeId: "UFhiHqs4L0U",
+    desc: ""
+  },
+  {
+    id: 216,
+    category: "미디어",
+    mediaGroup: "페나코니 1막 음항과 분고 클리어 후",
+    title: "단편 애니메이션 : 영겁의 춤",
+    youtubeId: "gD091h77N50",
+    desc: ""
+  },
+  {
+    id: 217,
+    category: "미디어",
+    mediaGroup: "페나코니 1막 음항과 분고 클리어 후",
+    title: "별무리 기행 : 허담 단칼에 끊어낸 부세",
+    youtubeId: "d5p7FPzPSR0",
+    desc: ""
+  },
+
+  // ==================== 페나코니 2막 비둘기 속의 고양이 클리어 후 ====================
+  {
+    id: 218,
+    category: "미디어",
+    mediaGroup: "페나코니 2막 비둘기 속의 고양이 클리어 후",
+    title: "EP : 애타는 한 가슴을 달랠 수 있다면",
+    youtubeId: "NHDiAdp13Hg",
+    desc: ""
+  },
+  {
+    id: 219,
+    category: "미디어",
+    mediaGroup: "페나코니 2막 비둘기 속의 고양이 클리어 후",
+    title: "별을 누빈 순간 : 언제나 불공평한 운명, 하지만...",
+    youtubeId: "i-6rbZrd0XM",
+    desc: ""
+  },
+  {
+    id: 220,
+    category: "미디어",
+    mediaGroup: "페나코니 2막 비둘기 속의 고양이 클리어 후",
+    title: "별을 누빈 순간 : 논제로섬 게임",
+    youtubeId: "eRHRrb5xBIM",
+    desc: ""
+  },
+  {
+    id: 221,
+    category: "미디어",
+    mediaGroup: "페나코니 2막 비둘기 속의 고양이 클리어 후",
+    title: "별무리 기행 : 만약 한 쌍의 날개가 있다면",
+    youtubeId: "WctNTA5chC4",
+    desc: ""
+  },
+
+  // ==================== 페나코니 3막 우리들의 시대에 클리어 후 ====================
+  {
+    id: 222,
+    category: "미디어",
+    mediaGroup: "페나코니 3막 우리들의 시대에 클리어 후",
+    title: "EP : 희망은 날개 달린 것",
+    youtubeId: "r0dvrhPK66U",
+    desc: ""
+  },
+
+  // ==================== 페나코니 4막 안녕, 페나코니 클리어 후 ====================
+  {
+    id: 223,
+    category: "미디어",
+    mediaGroup: "페나코니 4막 안녕, 페나코니 클리어 후",
+    title: "좋은꿈 커튼콜 : 타탈로브가 당신에게 표하는 경의",
+    youtubeId: "VPkA8Pe5oFs",
+    desc: ""
+  },
+  {
+    id: 224,
+    category: "미디어",
+    mediaGroup: "페나코니 4막 안녕, 페나코니 클리어 후",
+    title: "별무리 기행 : 지금 이 순간, 같은 별하늘 아래",
+    youtubeId: "KFOEuMlIYQE",
+    desc: ""
+  },
+  {
+    id: 225,
+    category: "미디어",
+    mediaGroup: "페나코니 4막 안녕, 페나코니 클리어 후",
+    title: "단편 애니메이션 : 그라모스의 잔화",
+    youtubeId: "ryyd59vD-bg",
+    desc: ""
+  },
+  {
+    id: 226,
+    category: "미디어",
+    mediaGroup: "페나코니 4막 안녕, 페나코니 클리어 후",
+    title: "별을 누빈 순간 : 보나제이드 전당포",
+    youtubeId: "8DcjSY9hp3I",
+    desc: ""
+  },
+  {
+    id: 227,
+    category: "미디어",
+    mediaGroup: "페나코니 4막 안녕, 페나코니 클리어 후",
+    title: "별무리 기행 : 스톤하트 맹세 반지 저울의 양 끝",
+    youtubeId: "vhIsH-RjAUw",
+    desc: ""
+  },
+
+  // ==================== 개척후문 청천 위 교차하는 칼끝 상 클리어 후 ====================
+  {
+    id: 228,
+    category: "미디어",
+    mediaGroup: "개척후문 청천 위 교차하는 칼끝 상 클리어 후",
+    title: "별무리 기행 : 날씨가 건조할 땐 화로를 조심해",
+    youtubeId: "WIzJzHKRVUA",
+    desc: ""
+  },
+  {
+    id: 229,
+    category: "미디어",
+    mediaGroup: "개척후문 청천 위 교차하는 칼끝 상 클리어 후",
+    title: "별무리 기행 : 길을 잃고 표류하는",
+    youtubeId: "UP1avkczR9A",
+    desc: ""
+  },
+  {
+    id: 230,
+    category: "미디어",
+    mediaGroup: "개척후문 청천 위 교차하는 칼끝 상 클리어 후",
+    title: "별무리 기행 : 날아가는 화살은 별을 좆고",
+    youtubeId: "OIK4mMENyAg",
+    desc: ""
+  },
+
+  // ==================== 개척후문 청천 위 교차하는 칼끝 하 클리어 후 ====================
+  {
+    id: 231,
+    category: "미디어",
+    mediaGroup: "개척후문 청천 위 교차하는 칼끝 하 클리어 후",
+    title: "단편 애니메이션 : 여유롭고 편안하게",
+    youtubeId: "Dq6KHznQJbk",
+    desc: ""
+  },
+
+  // ==================== 개척임무 여덟째 날에 오르는 여정 클리어 후 ====================
+  {
+    id: 232,
+    category: "미디어",
+    mediaGroup: "개척임무 여덟째 날에 오르는 여정 클리어 후",
+    title: "별무리 기행 : 태양이 진 후",
+    youtubeId: "iiVp2IxlcSM",
+    desc: ""
+  },
+  {
+    id: 233,
+    category: "미디어",
+    mediaGroup: "개척임무 여덟째 날에 오르는 여정 클리어 후",
+    title: "별무리 기행 : 한낱 뜬구름이 아닌",
+    youtubeId: "aj68EDetXvQ",
+    desc: ""
+  },
+
+  // ==================== 앰포리어스 진입 전 ====================
+  {
+    id: 234,
+    category: "미디어",
+    mediaGroup: "앰포리어스 진입 전",
+    title: "OP : Nameless Faces",
+    youtubeId: "c56iDq4t-Qk",
+    desc: ""
+  },
+  {
+    id: 235,
+    category: "미디어",
+    mediaGroup: "앰포리어스 진입 전",
+    title: "황금의 서사시 : 앰포리어스 영웅기",
+    youtubeId: "wAuJYQYJRew",
+    desc: ""
+  },
+  {
+    id: 236,
+    category: "미디어",
+    mediaGroup: "앰포리어스 진입 전",
+    title: "태초의 송가 : 티탄과 지상의 만방에 관하여",
+    youtubeId: "bGRmo-hi7nQ",
+    desc: ""
+  },
+  {
+    id: 237,
+    category: "미디어",
+    mediaGroup: "앰포리어스 진입 전",
+    title: "신화의 시작 : 신들의 침묵의 노래",
+    youtubeId: "0pKs7pkZVEI",
+    desc: ""
+  },
+  {
+    id: 238,
+    category: "미디어",
+    mediaGroup: "앰포리어스 진입 전",
+    title: "별무리 기행 : 수수께끼처럼 침묵하는 뭇별",
+    youtubeId: "uWQ3sgqzpdM",
+    desc: ""
+  },
+  {
+    id: 239,
+    category: "미디어",
+    mediaGroup: "앰포리어스 진입 전",
+    title: "단편 애니메이션 : 더 헤 르 타 의 마 법 주 방",
+    youtubeId: "zJQJY1I9xZM",
+    desc: ""
+  },
+
+  // ==================== 앰포리어스 1막 불을 쫒는 낙목의 영웅기 클리어 후 ====================
+  {
+    id: 240,
+    category: "미디어",
+    mediaGroup: "앰포리어스 1막 불을 쫒는 낙목의 영웅기 클리어 후",
+    title: "황금의 서사시 : 운명의 첫 번째 새벽",
+    youtubeId: "m8ajSbDtGOA",
+    desc: ""
+  },
+
+  // ==================== 앰포리어스 2막 문의 시작, 왕좌의 종말 클리어 후 ====================
+  {
+    id: 241,
+    category: "미디어",
+    mediaGroup: "앰포리어스 2막 문의 시작, 왕좌의 종말 클리어 후",
+    title: "황금의 서사시 : 밤에서 깨어나는 생명",
+    youtubeId: "KUyabPTv34U",
+    desc: ""
+  },
+
+  // ==================== 앰포리어스 3막 안식의 땅의 꽃밭을 지나 클리어 후 ====================
+  {
+    id: 242,
+    category: "미디어",
+    mediaGroup: "앰포리어스 3막 안식의 땅의 꽃밭을 지나 클리어 후",
+    title: "단편 애니메이션 : 안식의 긴 밤",
+    youtubeId: "a43T8AybcEo",
+    desc: ""
+  },
+
+  // ==================== 앰포리어스 4막 여명이 틀 무렵의 추락 클리어 후 ====================
+  {
+    id: 243,
+    category: "미디어",
+    mediaGroup: "앰포리어스 4막 여명이 틀 무렵의 추락 클리어 후",
+    title: "EP : 동트기 전",
+    youtubeId: "pod2uhS6cFM",
+    desc: ""
+  },
+  {
+    id: 244,
+    category: "미디어",
+    mediaGroup: "앰포리어스 4막 여명이 틀 무렵의 추락 클리어 후",
+    title: "별무리 기행 : 별하늘 우화 2",
+    youtubeId: "qs2t1G_2_C0",
+    desc: ""
+  },
+
+  // ==================== 앰포리어스 5막 태양이 파멸로 향하기에 클리어 후 ====================
+  {
+    id: 245,
+    category: "미디어",
+    mediaGroup: "앰포리어스 5막 태양이 파멸로 향하기에 클리어 후",
+    title: "단편 애니메이션 : 들어라! 신성한 산봉우리에서 울리는 환희를",
+    youtubeId: "hmMvV28RTmE",
+    desc: ""
+  },
+  {
+    id: 246,
+    category: "미디어",
+    mediaGroup: "앰포리어스 5막 태양이 파멸로 향하기에 클리어 후",
+    title: "MV : 타오르는 태양의 불꽃",
+    youtubeId: "cxCYWbF7vEw",
+    desc: ""
+  },
+  {
+    id: 247,
+    category: "미디어",
+    mediaGroup: "앰포리어스 5막 태양이 파멸로 향하기에 클리어 후",
+    title: "별을 누빈 순간 : 아침 해의 운명",
+    youtubeId: "UM7fQOBXY9g",
+    desc: ""
+  },
+  {
+    id: 248,
+    category: "미디어",
+    mediaGroup: "앰포리어스 5막 태양이 파멸로 향하기에 클리어 후",
+    title: "구세 PV : 개척자",
+    youtubeId: "hs0U_C5gJSc",
+    desc: ""
+  },
+
+  // ==================== 앰포리어스 6막 영웅은 죽기 전에 클리어 후 ====================
+  {
+    id: 249,
+    category: "미디어",
+    mediaGroup: "앰포리어스 6막 영웅은 죽기 전에 클리어 후",
+    title: "별무리 기행 PV: 「사랑하는 Mar. 7th」",
+    youtubeId: "UJubmWaGacs",
+    desc: ""
+  },
+
+  // ==================== 앰포리어스 7막 긴 밤 속에 다시 대지로 클리어 후 ====================
+  {
+    id: 250,
+    category: "미디어",
+    mediaGroup: "앰포리어스 7막 긴 밤 속에 다시 대지로 클리어 후",
+    title: "단편 애니메이션: 「고된 여정」",
+    youtubeId: "JsTGPjvtNV0",
+    desc: ""
+  },
+  {
+    id: 251,
+    category: "미디어",
+    mediaGroup: "앰포리어스 7막 긴 밤 속에 다시 대지로 클리어 후",
+    title: "별무리 기행 PV: 「앰포리어스 영웅기」",
+    youtubeId: "rmd5awd5dBc",
+    desc: ""
+  },
+  {
+    id: 252,
+    category: "미디어",
+    mediaGroup: "앰포리어스 7막 긴 밤 속에 다시 대지로 클리어 후",
+    title: "계속 구축되는 허상 | 마메라 모험기 |",
+    youtubeId: "V2N8S4tcfd0",
+    desc: ""
+  },
+  {
+    id: 253,
+    category: "미디어",
+    mediaGroup: "앰포리어스 7막 긴 밤 속에 다시 대지로 클리어 후",
+    title: "야간 찻간 | 단항의 독자적인 물리치료",
+    youtubeId: "YBW7QJe65ZE",
+    desc: ""
+  },
+  {
+    id: 254,
+    category: "미디어",
+    mediaGroup: "앰포리어스 7막 긴 밤 속에 다시 대지로 클리어 후",
+    title: "별무리 기행 PV: 「이야기의 밖: S#8」",
+    youtubeId: "6GS1oxfdXWQ",
+    desc: ""
+  },
+  {
+    id: 255,
+    category: "미디어",
+    mediaGroup: "앰포리어스 7막 긴 밤 속에 다시 대지로 클리어 후",
+    title: "황금의 서사시 PV: 「안녕, 키레네」",
+    youtubeId: "F9xaErk304U",
+    desc: ""
+  },
+  {
+    id: 256,
+    category: "미디어",
+    mediaGroup: "앰포리어스 7막 긴 밤 속에 다시 대지로 클리어 후",
+    title: "「가장 긴 밤」 | 앰포리어스 카운트다운",
+    youtubeId: "ELD2rVWAbMA",
+    desc: ""
+  },
+
+  // ==================== 앰포리어스 8막 어제의 내일이 되어 클리어 후 ====================
+  {
+    id: 257,
+    category: "미디어",
+    mediaGroup: "앰포리어스 8막 어제의 내일이 되어 클리어 후",
+    title: "단편 애니메이션: 「안녕, 세상아!」",
+    youtubeId: "hgTscLO7odo",
+    desc: ""
+  },
+  {
+    id: 258,
+    category: "미디어",
+    mediaGroup: "앰포리어스 8막 어제의 내일이 되어 클리어 후",
+    title: "「가장 긴 밤」 | 키레네의 잠들기 전 이야기",
+    youtubeId: "kOrGRgYTp6g",
+    desc: ""
+  },
+
+  // ==================== 이상낙원 진입 전 ====================
+  {
+    id: 259,
+    category: "미디어",
+    mediaGroup: "이상낙원 진입 전",
+    title: "즉흥 순회공연 PV: 「한 번에 알아보기! 아이언툼 전투 이후, 공식이 말하지 않은 진실!」",
+    youtubeId: "fvJR2GfKURI",
+    desc: ""
+  },
+  {
+    id: 260,
+    category: "미디어",
+    mediaGroup: "이상낙원 진입 전",
+    title: "별무리 기행 PV: 「스타피스의 제안: 반파멸동맹」",
+    youtubeId: "877rHk9qhEM",
+    desc: ""
+  },
+
+  // ==================== 이상낙원 1막 낙원에 오신 걸 환영합니다 클리어 후 ====================
+  {
+    id: 261,
+    category: "미디어",
+    mediaGroup: "이상낙원 1막 낙원에 오신 걸 환영합니다 클리어 후",
+    title: "아하 추천 | 환월 게임 승자 하이라이트——",
+    youtubeId: "1HEQe0g8VvY",
+    desc: ""
+  },
+  {
+    id: 262,
+    category: "미디어",
+    mediaGroup: "이상낙원 1막 낙원에 오신 걸 환영합니다 클리어 후",
+    title: "아하 추천 | 아하를 찾아서 스페셜 프로그램 ——",
+    youtubeId: "1aQ2oKFOP2A",
+    desc: ""
+  }
+];
 ];
 
 // 이 아래는 절대 지우지 마세요

@@ -104,9 +104,12 @@ const guides = [
   {
   id: 5,
   category: "파밍",
-  title: "유물작 그게 뭐야?",
-  desc: "졸라 생각중.",
-  content: "내용 작성 예정"
+  title: "유물작",
+  desc: "유물작이 뭐에오?",
+  buildImage:"images/guides/umul-1.png",
+  content: `
+    <h3>그 중 “속성 피해”에는 물리、화염、얼음、번개、바람、양자、허수가 포함되어 있습니다。</h3>
+  `
 },
 {
   id: 11,

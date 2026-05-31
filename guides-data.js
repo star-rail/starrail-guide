@@ -702,8 +702,8 @@ const guides = [
   {
     id: 8,
     category: "캐릭터",
-    title: "환락팟",
-    desc: "환락 마약 헤응",
+    title: "환락파티",
+    desc: "환락파티의 메커니즘에 아라boza! ",
     content: "내용 작성 예정"
   },
 
@@ -713,7 +713,7 @@ const guides = [
   {
   id: 9,
   category: "세팅",
-  title: "에바네시아",
+  title: "에바네시아(4.2v출시)",
   desc: "유물, 광추 추천 (이미지 가이드)",
   buildImage: "images/builds/ebanesia.jpg",
   content: "출시 기점의 파티 추천입니다."
@@ -721,12 +721,36 @@ const guides = [
   {
     id: 10,
     category: "세팅",
-    title: "효광",
+    title: "효광(4.1v출시)",
     desc: "유물, 광추 추천 (이미지 가이드)",
   buildImage: "images/builds/yaoguang.jpg",
+  content: "출시 기점의 파티 추천입니다."
+  },
+  {
+    id: 13,
+    category: "세팅",
+    title: "천야-블레이드(4.3v출시)",
+    desc: "유물, 광추 추천 (이미지 가이드)",
+  buildImage: "",
+  content: "출시 기점의 파티 추천입니다."
+  },
+  {
+    id: 14,
+    category: "세팅",
+    title: "길가메쉬(4.3v출시)",
+    desc: "유물, 광추 추천 (이미지 가이드)",
+  buildImage: "",
+  content: "출시 기점의 파티 추천입니다."
+  },
+  {
+    id: 15,
+    category: "세팅",
+    title: "히메코-nova(4.4v출시)",
+    desc: "유물, 광추 추천 (이미지 가이드)",
+  buildImage: "",
   content: "출시 기점의 파티 추천입니다."
   }
 ];
 
-// 이 아래는 절대 지우지 마세요
+// 이 아래는 절대 지우지 마세요13부터
 // (index.html에서 이 데이터를 불러옵니다)

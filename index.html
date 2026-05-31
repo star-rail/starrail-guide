@@ -13,7 +13,10 @@
   <meta property="og:locale" content="ko_KR">
   <meta name="twitter:card" content="summary_large_image">
 
+  <link rel="manifest" href="manifest.json">
+
   <title>붕괴: 스타레일 • 행시 가이드북</title>
+  
   <style>
     @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css');
 
@@ -330,7 +333,27 @@
   font-size: 14px;
   color: var(--muted);
 }
-/* === buildImage용 CSS 여기까지 === */ </style>
+/* === buildImage용 CSS 여기까지 === */
+
+.desktop-btn {
+  background: #1e2435;
+  color: #7dd3fc;
+  border: 1px solid #2a3146;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.desktop-btn:hover {
+  background: #7dd3fc;
+  color: #0b0e17;
+  border-color: #7dd3fc;
+}
+
+</style>
 </head>
 <body>
 
@@ -360,6 +383,11 @@
   <div class="container">
     <div class="nav">
       <div class="logo">스타레일 <span>뉴비 가이드북</span></div>
+
+      <!-- 여기 추가 -->
+      <button id="add-to-desktop" class="desktop-btn">
+        바탕화면에 추가
+      </button>
     </div>
   </div>
 </header>
@@ -591,6 +619,24 @@ function init() {
 
   console.log("%c[스타레일 뉴비 가이드북] 초기화 완료", "color:#7dd3fc");
 }
+// 바탕화면 추가 버튼 (PWA 설치 프롬프트)
+let deferredPrompt;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+});
+
+document.getElementById('add-to-desktop').addEventListener('click', async () => {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    console.log(`사용자 선택: ${outcome}`);
+    deferredPrompt = null;
+  } else {
+    alert("이미 설치되었거나, 현재 브라우저에서는 설치가 지원되지 않습니다.\n주소창 오른쪽의 설치 아이콘을 이용해주세요.");
+  }
+});
 
 init();
 </script>

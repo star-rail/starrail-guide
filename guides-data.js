@@ -74,6 +74,14 @@ const guides = [
     desc: "약점 격파의 특징과 격파파티의 구조성",
     content: "내용 작성 예정"
   },
+  {
+    id: 17,
+    category: "기본",
+    title: "가챠와 천장시스템",
+    desc: "뽑기 확률업과 반천장, 천장시스템에 대하여",
+    buildImage: "images/guides/pickup.png",
+    content: "비틱하지마라 그리고 콜라보 픽업은 별개의 스택이다."
+  },
   // ====================================================
   // === 파밍 & 진행 ===
   // ====================================================
@@ -101,19 +109,63 @@ const guides = [
       </ul>
   `
 },
-  {
-  id: 5,
-  category: "파밍",
-  title: "유물작",
-  desc: "유물작이 뭐에오?",
-  buildImage:"images/guides/umul-1.png",
+{
+  id: 10,                    
+  category: "파밍",         
+  title: "유물 파밍작", 
+  desc: "유물작에 대해 알아보아요!", 
+  buildImage: "", 
   content: `
-    <h3>그 중 “속성 피해”에는 물리、화염、얼음、번개、바람、양자、허수가 포함되어 있습니다。</h3>
+
+    <!-- 상단 대표 이미지 영역 -->
+    <img src="images/guides/umul-1.png"
+         alt="대표 이미지"
+         class="build-image">
+
+    <div class="build-image-note">
+     <p>각 유물 부위별 주옵션 획득 확률과 옵션 종류임</p>
+     <p>구체에 붙어있는 속피증에는 물리、화염、얼음、번개、바람、양자、허수가 
+      포함된다.</p>
+    </div>
+
+    <!-- ===================== 본문 시작 ===================== -->
+
+    <h3>1. 유물 획득시 부옵의 시작 개수</h3>
+    <p>얻게되는 5성 유물은 태생 3줄, 4줄 유물이 존재한다</p>
+    <p>3줄 유물이어도 강화를 하면 4줄이 될 수 있다.</p>
+    <p>유물 획득시 드랍률은 이미지대로 3줄은 80%, 4줄은 20%이다.</p>
+
+    <img src="images/guides/umul-2.png"
+         alt="3줄 유물 강화시 4줄옵션"
+         style="width:100%; border-radius:10px; border:1px solid #2a3146; margin:8px 0 4px;">
+    <p style="color:#9ca3af; font-size:13px; margin-bottom:20px;">요새는 3줄짜리 유물도 강화시 어떤 옵션이 4줄에 들어오는지 미리 알수있음
+    </p>
+
+    <h3>2. 부옵 확정</h3>
+    <p>부옵션은 해당 12개의 옵션이 확률적으로 붙게 된다.</p>
+
+    <img src="images/guides/umul-3.png"
+         alt="부옵션 종류"
+         style="width:100%; border-radius:10px; border:1px solid #2a3146; margin:8px 0 4px;">
+    <p style="color:#9ca3af; font-size:13px; margin-bottom:20px;">그랜드체이스 룬 시스템과 같이 주옵션이 치확 이라면 
+    부옵션에는 치확은 죽었다 깨어나도 뜨지 않음. </p>
+
+    <h3>3. 유물 강화</h3>
+    <p>+3강마다 부옵에 1스택의 강화가 추가된다.</p>
+
+    <img src="images/guides/umul-4.jpg"
+         alt="강화스택마다의 상승값"
+         style="width:100%; border-radius:10px; border:1px solid #2a3146; margin:8px 0 4px;">
+    <p style="color:#9ca3af; font-size:13px; margin-bottom:20px;">각 부옵션에 붙는 1스택당 상승되는 랜덤 값이다.</p>
+    <p>1.만약 강화 전 부옵이 3줄이면， +3강 이후 새로운 부옵션을 뽑으며 4줄이 된다.</p>
+    <p>2.만약 강화 전 부옵이 4줄이면， +3강 이후 4줄 옵션중 똑같은 랜덤 확률에 따라 부옵션 한개가 강화된다.</p>
+    <p>3.최종적으로 정리하면 태생 3줄 유물은 부옵 스택 강화 기회를 총 4번 얻으며, 태생 4줄 유물은 +15강화까지 총 5번의 부옵 강화 기회를 가지게 된다
+    </p>
   `
 },
 {
   id: 11,
-  category: "파밍",
+  category: "진행",
   title: "메인스토리 평균 플레이타임",
   desc: "이 빌어먹을 스토리 대체 얼마나 걸리는거야?",
   buildImage: "images/guides/playtime.png",
@@ -699,14 +751,14 @@ const guides = [
     id: 7,
     category: "캐릭터",
     title: "기억파티",
-    desc: "기억파티",
+    desc: "엠어게인은 온다",
     content: "내용 작성 예정"
   },
   {
     id: 8,
     category: "캐릭터",
-    title: "환락파티",
-    desc: "환락파티의 메커니즘에 아라boza! ",
+    title: "환락파티-에바네시아",
+    desc: "환락파티의 메커니즘에 대해서",
     content: "내용 작성 예정"
   },
 
@@ -740,7 +792,7 @@ const guides = [
   {
     id: 14,
     category: "세팅",
-    title: "길가메쉬(4.3v출시)",
+    title: "길가메쉬(4.4v출시)",
     desc: "유물, 광추 추천 (이미지 가이드)",
   buildImage: "",
   content: "출시 기점의 파티 추천입니다."
@@ -752,8 +804,16 @@ const guides = [
     desc: "유물, 광추 추천 (이미지 가이드)",
   buildImage: "",
   content: "출시 기점의 파티 추천입니다."
-  }
+  },
+  {
+    id: 16,
+    category: "세팅",
+    title: "스파키(4.1v출시)",
+    desc: "유물, 광추 추천 (이미지 가이드)",
+  buildImage: "",
+  content: "출시 기점의 파티 추천입니다."
+  },
 ];
 
-// 이 아래는 절대 지우지 마세요13부터
+// 이 아래는 절대 지우지 마세요17부터
 // (index.html에서 이 데이터를 불러옵니다)

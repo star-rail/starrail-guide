@@ -421,10 +421,10 @@
   <div class="categories" id="categories">
     <div class="cat active" data-cat="all" onclick="setCategory(this)">전체</div>
     <div class="cat" data-cat="기본" onclick="setCategory(this)">기본 시스템</div>
-    <div class="cat" data-cat="파밍" onclick="setCategory(this)">파밍 &amp; 진행</div>
+    <div class="cat" data-cat="파밍,진행" onclick="setCategory(this)">파밍 &amp; 진행</div>
     <div class="cat" data-cat="캐릭터" onclick="setCategory(this)">캐릭터 &amp; 팀</div>
     <div class="cat" data-cat="세팅" onclick="setCategory(this)">유물 / 광추 세팅</div>
-    <div class="cat" data-cat="미디어" onclick="setCategory(this)">미디어 순서</div>
+    <div class="cat" data-cat="미디어" onclick="setCategory(this)">PV 보는순서</div>
   </div>
 
   <!-- Guides -->
@@ -542,8 +542,13 @@ function filterGuides() {
   let filtered = guides;
 
   if (currentCategory !== "all") {
-    filtered = filtered.filter(g => g.category === currentCategory);
-  }
+  // 콤마로 구분된 카테고리를 배열로 변환
+  const allowedCategories = currentCategory.split(',').map(c => c.trim());
+
+  filtered = filtered.filter(g =>
+    allowedCategories.includes(g.category)
+  );
+}
 
   if (keyword) {
     filtered = filtered.filter(g => 
